@@ -1,0 +1,15 @@
+CoLib - Coherence Computation Library
+https://sites.google.com/view/okantopcu/coagent
+=============================================
+
+Copyright © Okan Topçu,2009-2024
+otot.support@outlook.com
+
+
+
+Please note that this is a research and an academic library that is not intended for a production environment. 
+No support is guaranteed. Use it at your own risk. Also note that the versions do not follow backward compatibility policy. 
+This means that a new version may not work with an older version of the library, which may cause loss of work.
+
+You can influence this project by sending your feedback. Please, contact project owner(s) and feel free 
+for any comments, offers, remarks, ideas, etc. 

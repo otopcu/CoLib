@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Coherence Library (CoLib)</Title>
+    <Description>Coherence Computation Library - CoLib is the connectionist network computation library specifically targeting various types of coherence. this library is used in some academic and research-oriented projects, particularly in development of Coherence-Driven Agent Framework (CoAgentLib). See project website: https://sites.google.com/site/okantopcu/coagent.</Description>
+    <Copyright>Copyright © Okan Topcu 2014 - 2024</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://sites.google.com/view/okantopcu/coagent</PackageProjectUrl>
+    <PackageTags>Coherence, Goal Reasoning, Explanatory Coherence</PackageTags>
+    <Company>Okan Topcu</Company>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Resources\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
